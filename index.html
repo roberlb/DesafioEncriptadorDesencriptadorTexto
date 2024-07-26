@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+
+    <header class="header">
+        <img class="header__logo" src="./assets/images/image.png" alt="Logo Alura" class="logo" />
+    </header>
+    <main>
+        <div class="areaInput">
+            <textarea class="areaInput__text" id="textAreaInput" placeholder="Ingrese el texto aqui"></textarea>
+            <p class="areaInput__mensaje">
+                <img src="./assets/images/info.png" alt="Informacion" srcset="" />Solo se permiten letras minusculas sin caracteres especiales
+            </p>
+            <div class="areaInput__button">
+                <button type="button" class="areaInput__button__b encriptar" onclick="encriptador();">
+                    Encriptar
+                </button>
+                <button type="button" class="areaInput__button__b desencriptar" onclick="desencriptador();">
+                    Desencriptar
+                </button>
+            </div>
+        </div>
+        <div class="areaOutput">
+            <div class="areaOutput__busqueda">
+                <img class="areaOutput__busqueda__logo" src="./assets/images/busqueda.png" alt="Imagen buscando un texto" />
+                <p class="areaOutput__busqueda__alerta">
+                    Ningún mensaje fue encontrado
+                </p>
+                <p class="areaOutput__busqueda__mensaje">
+                    Ingresa el texto que desees encriptar o desencriptar.
+                </p>
+            </div>
+            <div class="areaOutput__respuesta">
+                <textarea class="areaOutput__respuesta__salida" placeholder="Resultado" id="textAreaOutput"></textarea>
+                <button type="button" class="areaOutput__respuesta__button" onclick="copiarTexto();">
+                    Copiar
+                </button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Desarrollado por Roberto Llanos Blanco</p>
+    </footer>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
