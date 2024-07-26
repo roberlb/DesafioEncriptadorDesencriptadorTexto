@@ -1,4 +1,4 @@
-<em> # Proyecto de Encriptación de Textos </em>
+# Proyecto de Encriptación de Textos
 
 Primer proyecto web de encriptado y desencriptado de texto.
 
